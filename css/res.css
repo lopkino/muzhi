@@ -1,0 +1,113 @@
+/* 小屏幕（平板，大于等于 768px） sm-min */
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+    .main-slider {
+        height: 448px;
+    }
+    .main-slider .download {
+        margin-top: 350px;
+    }
+    .sec-slider .chouti {
+        height: 270px;
+        width: 720px;
+    }
+    .sec-slider .chouti .section.active {
+        width: 309px;
+    }
+    .sec-slider .chouti .section {
+        height: 240px;
+        width: 95px;
+    }
+    .sec-slider {
+        height: 350px;
+        margin-top: 40px;
+    }
+    .contentBack {
+        width: 100%;
+        margin: 20px auto;
+    }
+    .sliders {
+        width: 600px;
+        height: 400px;
+    }
+    .contentBack .arrow .left {
+        width: 50px;
+        margin-left: 7px;
+    }
+    .contentBack .arrow .right {
+        width: 50px;
+        margin-right: 6px;
+    }
+    .cooperation .cooperation-list a {
+        margin: 5px 50px;
+    }
+}
+/* 中等屏幕（桌面显示器，大于等于 992px） md-min */
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+/* 大屏幕（大桌面显示器，大于等于 1200px） lg-min */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 990px;
+    }
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+    header .container {
+        width: 990px;
+    }
+    .sec-slider .chouti {
+        width: 990px;
+        height: 410px;
+    }
+    .sec-slider {
+        margin-top: 70px;
+        height: 480px;
+    }
+    .sec-slider .chouti .section {
+        width: 120px;
+        height: 380px;
+    }
+    .sec-slider .chouti .section.active {
+        width: 479px;
+    }
+    .contentBack {
+        width: 990px;
+        height: 445px;
+    }
+    .sliders {
+        width: 720px;
+        height: 400px;
+    }
+    .contentBack .arrow .left {
+        width: 67px;
+        height: 56px;
+    }
+    .contentBack .arrow .right {
+        width: 67px;
+        height: 56px;
+    }
+    .cooperation .container {
+        width: 990px;
+    }
+    .cooperation .cooperation-list {
+        margin-top: 10px;
+        border-bottom: 1px solid #333;
+        border-top: 1px solid #333;
+        padding: 10px 0;
+    }
+    .cooperation .cooperation-list a {
+        margin: 5px 14px;
+    }
+}
